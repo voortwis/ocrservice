@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  
+    <p>Upload an image of a document for poppler-utils<p>
+    <div class="thumbnail-form">
+      <form action = "/thumbnail" method = "POST" 
+        enctype = "multipart/form-data">
+        <input type = "file" name = "file" />
+        <input type = "submit"/>
+      </form>
+    </div>
+    <div class="thumbnail-form">
+        <form action = "/pdfinfo" method = "POST" 
+          enctype = "multipart/form-data">
+          <input type = "file" name = "file" />
+          <input type = "submit"/>
+        </form>
+    </div>
+
+{% endblock %}
