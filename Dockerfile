@@ -7,6 +7,7 @@ RUN apt-get -y install \
   tesseract-ocr \
   tesseract-ocr-nld \
   tesseract-ocr-eng \
+  tesseract-ocr-deu \
   tesseract-ocr-fra \
   tesseract-ocr-script-latn \
   tesseract-ocr-osd \
